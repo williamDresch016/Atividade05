@@ -1,33 +1,33 @@
       string endereco;
-            string bairro;
-            string cidade;
+            
+            string localização;
             string estado;
-            string nome_cliente; 
-            string sobrenome;
+            string cliente; 
+            string nome1;
             int viagens, quantidade;
             double soma;
-            
+            string rua;
             
             
 
-            Console.WriteLine("Olá!!! Somos da agência Cunha Turismo ");
+            Console.WriteLine("Olá!!! Seja bem vindo a nossa agencia Will ! ");
             Console.WriteLine("Digite o seu nome");
-            nome_cliente = Console.ReadLine();
+            cliente = Console.ReadLine();
 
             Console.WriteLine("Digite seu sobrenome");
-            sobrenome = Console.ReadLine();
+            nome1 = Console.ReadLine();
 
-            Console.WriteLine($"Olá, Sr.{nome_cliente}, vamos continuar seu cadastro... Por favor, digite um ok!");
-            ok= Console.ReadLine();
+            
+            
 
-            Console.WriteLine("Queremos saber mais um pouco sobre você. Nos fale seu endereço, por favor!");
-            endereco = Console.ReadLine();
+            Console.WriteLine("Queremos saber mais um pouco sobre você. Nos fale sua rua, por favor!");
+            rua = Console.ReadLine();
 
             Console.WriteLine("Seu bairro?");
             bairro = Console.ReadLine();
 
-            Console.WriteLine("Sua cidade?");
-            cidade = Console.ReadLine();
+            Console.WriteLine("localização");
+            localização = Console.ReadLine();
 
             Console.WriteLine("E agora por fim, seu estado?");
             estado = Console.ReadLine();
