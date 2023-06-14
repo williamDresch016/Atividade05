@@ -32,7 +32,7 @@
             Console.WriteLine("E agora por fim, seu estado?");
             estado = Console.ReadLine();
 
-            Console.WriteLine($"O Sr.{sobrenome}, mora na cidade de {cidade} - {estado}, no endereço {endereco}, localizado no bairro {bairro}");
+            Console.WriteLine($"O Sr.{cliente}, mora na cidade de {localização} - {estado}, no endereço {rua}, localizado no bairro {bairro}");
 
             Console.WriteLine($"Agora queremos saber quantas viagens o Sr.{nome_cliente} realizou ano passado?");
             viagens = (int)double.Parse(s: Console.ReadLine());
